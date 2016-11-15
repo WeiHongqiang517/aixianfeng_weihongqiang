@@ -16,6 +16,8 @@ define(['backbone'],function(){
             home.render();
             home.getData();
             home.wxjk();
+            swiper();
+            home.lunbo();
 //          home.Swiper();
 //          home.resize();
           })

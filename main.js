@@ -4,11 +4,17 @@ require.config({
     'backbone':'lib/backbone',
     'underscore':'lib/underscore',
     'text':'lib/text',
-    'css':'lib/css'
+    'css':'lib/css',
+    'swiper':'lib/swiper.min'
+  },
+  shim:{
+    swiper:{
+      export:'swiper'
+    }
   }
 });
 
-require(['jquery','backbone','./router.js'],function($,Backbone){
+require(['jquery','backbone','./router.js','swiper'],function($,Backbone){
 	
   Backbone.history.start();
   

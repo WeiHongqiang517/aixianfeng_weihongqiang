@@ -5,7 +5,33 @@ define(['text!./home.html','css!./home.css','css!./swiper.min.css'],function(htm
 
     //ajax
     function getData(){
-		$.ajax({
+    	
+		getLunboDate();
+    }
+
+    function bindEvent(){
+		
+    }
+    
+    function wxjk(){
+    	saoyisao();
+    	getLocation();
+    }
+
+    function lunbo(){
+       swiper();
+    }
+
+    return {
+      render:render,
+      getData:getData,
+      lunbo:lunbo,
+      wxjk:wxjk
+    }
+})
+
+function getLunboDate(){
+	$.ajax({
 			type:"get",
 			url:"http://www.vrserver.applinzi.com/aixianfeng/apihome.php",
 			async:true,
@@ -21,19 +47,10 @@ define(['text!./home.html','css!./home.css','css!./swiper.min.css'],function(htm
 				$(".swiper-wrapper").html(strH);
 			}
 		});
-    }
+}
 
-    function bindEvent(){
-		
-    }
-    
-    function wxjk(){
-    	saoyisao();
-    	getLocation();
-    }
-
-    function swiper(){
-       var mySwiper = new Swiper('.swiper-container', {
+function swiper(){
+	var mySwiper = new Swiper('.swiper-container', {
             initialSlide: 0,
             effect: 'slide',
             direction: 'horizontal',
@@ -52,14 +69,7 @@ define(['text!./home.html','css!./home.css','css!./swiper.min.css'],function(htm
             autoplay: 2000,
             autoplayDisableOnInteraction: false
         })
-    }
-
-    return {
-      render:render,
-      getData:getData,
-      wxjk:wxjk
-    }
-})
+}
 
 function saoyisao(){
 	$('.scan p').on('click',function(){
