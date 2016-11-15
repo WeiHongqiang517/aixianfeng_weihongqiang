@@ -55,7 +55,8 @@ define(['text!./home.html','css!./home.css','css!./swiper.min.css'],function(htm
 
     return {
       render:render,
-      getData:getData
+      getData:getData,
+      wxjk:wxjk
     }
 })
 
