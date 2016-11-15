@@ -1,4 +1,4 @@
-将项目用require+sap框加搭建
+﻿将项目用require+sap框加搭建
 
 问题1：图片 js 等路径问题
 	html里的图片路径相对于主界面html
@@ -9,3 +9,5 @@
 
 
 问题3：怎么添加js文件
+
+wenti si
