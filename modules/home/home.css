@@ -1,0 +1,58 @@
+#home header{width: 100%;background: #ffd600;height: 1.4375rem;display: flex;justify-content: space-between;
+align-items: center;box-sizing: border-box;padding: 0 0.1875rem;position: fixed;top: 0;left: 0;z-index: 100;}
+#home header .scan{font-size: 0.25rem;}
+#home header .scan img{width: 0.546875rem;height: 0.546875rem;}
+
+#home header .location{font-size: 0.40625rem;font-weight: bold;}
+#home header .location img{width: 0.28125rem;height: 0.265625rem;}
+#home header .search{font-size: 0.25rem;}
+#home header .search img{width: 0.625rem;height: 0.609375rem;}
+#home .header{height: 1.4375rem;width: 100%;}
+/*.swiper-container{margin-bottom: 0.3125rem;}*/
+/*#home .swiper-wrapper{height: 215px;}*/
+#home .swiper-container .swiper-slide img{width: 10.0rem;}
+
+/*//menu部分*/
+#home .menu{font-size: 0.375rem;width: 100%;box-sizing: border-box;padding: 0.234375rem 0;background: #fff;margin-bottom: 0.3125rem}
+#home .menu .menu_list{display: flex;justify-content: space-between;box-sizing: border-box;padding: 0 0.3125rem;}
+#home .menu .menu_list img{width: 2.34375rem;}
+#home .menu .menu_list dt{text-align: center;}
+
+/*鲜蜂头条*/
+#home .xf_headline{background: #fff;width: 100%;height: 1.015625rem;margin-bottom: 0.3125rem;display: flex;justify-content: flex-start;font-size: 0.34375rem;align-items: center;}
+#home .xf_headline p{height: 0.71875rem;}
+#home .xf_headline .xf_headline_lf{margin-left: 0.203125rem;border-right: 0.03125rem solid #e0e0e0;box-sizing: border-box;padding-right: 0.046875rem;}
+#home .xf_headline .xf_headline_lf img{width: 2.125rem;height: 0.71875rem;}
+#home .xf_headline .xf_headline_rt{display: flex;align-items:center}
+#home .xf_headline .xf_headline_rt img{margin: 0 0.21875rem;width: 0.875rem;height: 0.4375rem;}
+
+/*中间产品图部分*/
+#home .list{margin-bottom: 0.3125rem;width: 100%;display:flex;justify-content: flex-start;width: 100%;flex-wrap: wrap;}
+#home .list_top a{display: block;width: 3.296875rem;height: 4.34375rem;}
+#home .list_top img{width: 3.296875rem;height: 4.34375rem;}
+#home .list_bot img{width: 4.96875rem;height: 2.0rem;}
+#home .list_bot a{display:block;width: 4.96875rem;height: 2.0rem;}
+
+/*good fruit 优选水果部分*/
+#home .goodFruit{width: 100%;background: #fff;padding-bottom: 0.3125rem;margin-bottom: 0.3125rem;}
+#home .goodFruit>h3{height: 0.5rem;line-height: 0.5rem;padding-top:0.375rem;}
+#home .goodFruit>h3 span{width: 0.25rem;height: 0.5rem;background: #f38631;float: left;margin: 0 0.203125rem 0 0.296875rem;}
+#home .goodFruit>h3 p{color: #F38631;font-size:0.40625rem;float: left;}
+#home .goodFruit>h3 a{font-size: 0.375rem;float:right;margin-right: 0.328125rem;}
+#home .goodFruit>h3 a img{width: 0.15625rem;height: 0.3125rem;margin-left: 0.296875rem;}
+#home .goodFruit .banner{padding: 0.3125rem 0;}
+#home .goodFruit .banner img{width: 9.40625rem;height: 2.390625rem;margin: 0 auto;display: block;}
+#home .goodFruit .box_content{width: 100%;height: 5.625rem;display: flex;justify-content: space-between;background: #E0E0E0;}
+#home .goodFruit .box_content>div{float: left;overflow: hidden;border: none;}
+#home .goodFruit .content{width: 3.3125rem;height: 5.625rem;background: #fff;}
+#home .goodFruit .content img{width: 3.25rem;height: 3.125rem;display: block;}
+#home .goodFruit .content .text{font-size: 0.3125rem;position: relative;}
+#home .goodFruit .content .text .add{position: absolute;right: 0.390625rem;bottom: 0.15625rem;border: 2px solid #E0E0E0;width: 0.8125rem;height: 0.8125rem;border-radius: 50%;display: flex;align-items: center;justify-content: center;}
+#home .goodFruit .content .text .add img{width: 0.359375rem;height: 0.359375rem;}
+#home .goodFruit .content .text p{height: 0.46875rem;padding-left: 0.15625rem;line-height: 0.46875rem;margin: 0.109375rem 0;color: #999;}
+#home .goodFruit .content .text p:nth-of-type(1){font-weight: bold;color: #666;}
+#home .goodFruit .content .text p:nth-of-type(2) span{box-sizing: border-box;display: inline-block;border: 2px solid red;border-radius: 0.078125rem;padding: 0 0.109375rem;}
+#home .goodFruit .content .text p:nth-of-type(2) span:nth-of-type(1){color: red;}
+#home .goodFruit .content .text p:nth-of-type(2) span:nth-of-type(2){background: red;color: #fff;}
+#home .goodFruit .content .text p:nth-of-type(4){color: red;}
+#home .goodFruit .content .text p:nth-of-type(4) del{color: #999;}

@@ -1,0 +1,13 @@
+*{padding: 0;margin: 0;color: #666;font-size: 0.34375rem;}
+ul,ol{list-style: none;}
+a,a:hover{text-decoration: none;}
+body{width: 100%;background: #efefef;padding-bottom: 1.5625rem;}
+
+/*底部菜单 footer部分*/
+footer{border-top: 1px solid #ccc;background: rgba(240,240,240,0.95);font-size: 0.34375rem;color: #666;height: 1.5625rem;width: 100%;display: flex;align-items: center;justify-content: space-around;
+position: fixed;left: 0;bottom: 0;}
+footer dl{min-width: 1.40625rem;position: relative;}
+#cart_num{position: absolute;right: 0;top: 0;background: red;color: #fff;width: 0.4rem;height: 0.4rem;border-radius: 50%;display: block;text-align: center;line-height: 0.4rem;}
+footer dl dt{text-align: center;}
+footer img{width: 0.625rem;height: 0.625rem;text-align: center;}
+footer dl dd{text-align: center;}

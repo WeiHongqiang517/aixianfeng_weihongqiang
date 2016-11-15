@@ -1,0 +1,46 @@
+#mine .user{height: 4.21875rem;width: 100%;background: #ffd600;}
+#mine .user .user_box{height: 3.125rem;display: flex;flex-wrap: wrap;align-content: center;padding-left: 2.8125rem;background: url(../../images/mine/myhead.png) no-repeat;background-size: 2.078125rem 2.078125rem;background-position-y: center;background-position-x: 0.46875rem;position: relative;}
+#mine .user .user_box p{width: 100%;font-weight: bold;}
+#mine .user .user_box p:nth-of-type(1){color: #fff;height: 0.9375rem;line-height: 0.9375rem;font-weight: bold;}
+#mine .user .user_box p:nth-of-type(2){height: 0.9375rem;line-height: 0.9375rem;color: #e75520;text-indent:0.9375rem;background: url(../../images/mine/my.png) no-repeat;background-size: 2.609375rem 0.875rem;background-position-y: center;}
+#mine .user .user_box p:after{
+	content: "";
+	background: url(../../images/mine/more.png);background-size: 0.328125rem 0.578125rem;
+	width: 0.328125rem;height: 0.578125rem;
+	position: absolute;
+	top: 50%;
+	right: 0.625rem;
+}
+#mine .user .list{height: 1.09375rem;background: rgba(255,255,255,0.2);display: flex;align-items: center;}
+#mine .user .list .favorite{flex: 1;display: flex;justify-content: center;align-items: center;}
+#mine .user .list .favorite span{color: #fff;padding-left: 0.9375rem;line-height: 0.46875rem;}
+#mine .user .list .goodsFavorite span{background: url(../../images/mine/shop.png) no-repeat;background-size: 0.46875rem 0.46875rem ;}
+#mine .user .list .shopFavorite span{background: url(../../images/mine/shopcol.png) no-repeat;background-size: 0.46875rem 0.46875rem;}
+#mine .user .list .split{width: 1px;background: #fff;height: 60%;}
+
+#mine .main{position: fixed;top:4.21875rem;bottom:1.5625rem ;overflow: auto;width: 100%;}
+#mine .main .myOrder{margin-top: 0.3125rem;}
+#mine .main .myOrder_hd{height: 1.5625rem;padding:0 0.78125rem 0 0.46875rem;background: #fff url(../../images/mine/more_black.png) no-repeat;background-position-y: center;background-position-x: right;background-size: 0.625rem 0.3125rem}
+#mine .main .myOrder_hd p{float: left;line-height: 1.5625rem;}
+#mine .main .myOrder_hd a{float: right;line-height: 1.5625rem;}
+#mine .main .myOrder_cnt{height: 2.234375rem;margin-top: 0.03125rem;background: #fff;}
+#mine .main .myOrder_cnt li{height: 60px;padding-top: 1.296875rem;line-height: 0.9375rem;width: 25%;float: left;text-align: center;}
+#mine .main .myOrder_cnt li:nth-of-type(1){background: url(../../images/mine/wait_01.png) no-repeat;background-position-y: 0.625rem;background-position-x: center;background-size: 0.59375rem;}
+#mine .main .myOrder_cnt li:nth-of-type(2){background: url(../../images/mine/wait_02.png) no-repeat;background-position-y: 0.625rem;background-position-x: center;background-size: 0.59375rem;}
+#mine .main .myOrder_cnt li:nth-of-type(3){background: url(../../images/mine/wait_03.png) no-repeat;background-position-y: 0.625rem;background-position-x: center;background-size: 0.59375rem;}
+#mine .main .myOrder_cnt li:nth-of-type(4){background: url(../../images/mine/wait_04.png) no-repeat;background-position-y: 0.625rem;background-position-x: center;background-size: 0.59375rem;}
+
+#mine .main .moreList{margin-top: 0.3125rem;}
+#mine .main .moreList-01{height: 3.125rem;margin-top: 2px;background: #fff;}
+#mine .main .moreList-01 li{height: 0.78125rem;padding-top:1.71875rem;padding-bottom: 0.625rem;width: 25%;float: left;text-align: center;}
+#mine .main .moreList-01 li:nth-of-type(1){background: url(../../images/mine/bg_01.png) no-repeat;background-position-y: 0.9375rem;background-position-x: center;background-size: 0.75rem;}
+#mine .main .moreList-01 li:nth-of-type(2){background: url(../../images/mine/bg_02.png) no-repeat;background-position-y: 0.9375rem;background-position-x: center;background-size: 0.75rem;}
+#mine .main .moreList-01 li:nth-of-type(3){background: url(../../images/mine/bg_03.png) no-repeat;background-position-y: 0.9375rem;background-position-x: center;background-size: 0.75rem;}
+#mine .main .moreList-01 li:nth-of-type(4){background: url(../../images/mine/bg_04.png) no-repeat;background-position-y: 0.9375rem;background-position-x: center;background-size: 0.75rem;}
+
+#mine .main .moreList-02{height: 3.125rem;margin-top: 0.03125rem;background: #fff;}
+#mine .main .moreList-02 li{height: 0.78125rem;padding-top:1.71875rem;padding-bottom: 0.625rem;width: 25%;float: left;text-align: center;}
+#mine .main .moreList-02 li:nth-of-type(1){background: url(../../images/mine/bg_05.png) no-repeat;background-position-y: 0.9375rem;background-position-x: center;background-size: 0.75rem;}
+#mine .main .moreList-02 li:nth-of-type(2){background: url(../../images/mine/bg_06.png) no-repeat;background-position-y: 0.9375rem;background-position-x: center;background-size: 0.75rem;}
+
+#mine .main .exitMy{height: 1.25rem;line-height: 1.25rem;text-align: center;background: #fff;margin: 0.78125rem 0 0.3125rem 0;}
